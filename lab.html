@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>lab test</title>
+</head>
+<body>
+	<form>
+		<!--name password email input --->
+		<label for="name">NAME</label><br>
+		<input type="text" name="name" id="name" placeholder="enter name" maxlength="25" size="25" required><br><br>
+		<label for="email">EMAIL</label><br>
+		<input type="email" name="email" id="email" pattern="test@example.com" title="test@example.com" value=" test@example.com" autofocus><br><br>
+		<label for="pass">PASSWORD</label><br>
+		<input type="password" name="pass" id="pass" minlength="6"  required><br><br>
+		<!--drop down box---->
+		<label for="cat">CATEGORY:</label>
+		<select id="cat" name="cat">
+			<option value="student">STUDENT</option>
+			<option value="employe">EMPLOYE</option>
+			<option value="freelancer" selected>FREELANCER</option>
+		</select><br><br>
+		<!--date input --->
+			<label for="date">EVENTDATE:</label>
+			<input type="date" name="date"><br><br>
+		<!--radio input--->	
+			<fieldset>
+			<legend><label for="ticket">TICKETS</label></legend>
+			<input type="radio" name="ticket1"><label for="ticket1"> 1 TICKET</label>
+			<input type="radio" name="ticket2" checked><label for="ticket2">2 TICKET</label>
+			<input type="radio" name="ticket3"><label for="ticket3">3 TICKET</label>
+			</fieldset><br><br>
+		<!--checkbox-->	
+            <label for="PAY">PAYMENT:</label>
+			<input type="checkbox" name="check" id="check">ONLINE PAYMENT<br><br>
+		<!--textarea-->	
+			<label for="tarea"> NOTES</label><br>
+			<textarea rows="5" cols="50" name="note" placeholder="enter comments"></textarea>
+			<input type="submit" name="note" id="note">
+
+
+
+
+			
+	</form>
+
+</body>
+</html>
